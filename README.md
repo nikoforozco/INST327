@@ -34,12 +34,12 @@ What places have more crime than others?
 How many victims were there per crime per month?  
 
 # The following list describes what each query we wrote for our database displays: 
-Query 1: Creates a view that shows the most committed crime and amount of times it was committed
-Query 2: Creates a view that shows the setting with the most crimes committed
-Query 3: Displays the number of incidents for each time of the day  (i.e morning, afternoon, evening)
-Query 4: Displays the city with the highest crime and its total number of incidents 
-Query 5: Displays total number of victims per month for each crime
-Query 6: Displays a summary table listing each CR_incident, crime and address
+Query 1: Creates a view that shows the most committed crime and amount of times it was committed  
+Query 2: Creates a view that shows the setting with the most crimes committed  
+Query 3: Displays the number of incidents for each time of the day  (i.e morning, afternoon, evening)  
+Query 4: Displays the city with the highest crime and its total number of incidents   
+Query 5: Displays total number of victims per month for each crime  
+Query 6: Displays a summary table listing each CR_incident, crime and address  
 
 # Changes from original design
 Since developing our original design, our group has made multiple modifications to our database by revising our entities and attributes. One of the major changes from our original design includes creating a new entity, ‘crime_police.’ This entity is used as a linking table between our ‘crime’ and ‘police’ entities to describe their close relationship. Our team has also chosen to move our ‘sector’ attribute from ‘location’ to the ‘police’ entity because it would be more logical for ‘sector’ to be describing the specific areas that the police are responsible for, rather than the location of the crime. We have also reviewed and changed the data types and storage to describe our attributes more appropriately. Additionally, we changed our ‘incident_id’ attribute to ‘crime_id,’ as the database refers to the name ‘crime,’ rather than ‘incident,’ making the database more cohesive, especially for users other than ourselves. Furthermore, rather than using the entire dataset in the given .csv file, which had over 300,000 records, we limited ourselves to crimes that occurred in 2023, which allows us to work with less than 1,000 sample records.
