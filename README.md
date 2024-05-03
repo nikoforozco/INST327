@@ -29,6 +29,8 @@ When designing our physical database, we didn't have time to make more tables th
 # Sample Data
 After realizing that over 300,000 data points were far too much to try to iterate over, we needed to cut it down. In the end, we decided on 966 samples to give us a snapshot of the crime statistics.  If the section of data we used gave us results that had patterns, we could point to that as a subject of interest, and continue expanding upon the queries after adding more. Below is a picture of our crime table (with the data we decided to keep). As we wanted to get the best picture of what is going on with crime in Montgomery County, we tried to keep as much detail as possible so as not to skew the results.
 
+![Alt text](screenshot_of_crime_table.png)  
+
 # Questions we were able to answer
 What crime occurs the most?  
 Where do most crimes occur? (outdoors, inside residences, etc.)  
