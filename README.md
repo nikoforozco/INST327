@@ -27,11 +27,11 @@ When designing our physical database, we didn't have time to make more tables th
 After realizing that over 300,000 data points were far too much to try to iterate over, we needed to cut it down. In the end, we decided on 966 samples to give us a snapshot of the crime statistics.  If the section of data we used gave us results that had patterns, we could point to that as a subject of interest, and continue expanding upon the queries after adding more. Below is a picture of our crime table (with the data we decided to keep). As we wanted to get the best picture of what is going on with crime in Montgomery County, we tried to keep as much detail as possible so as not to skew the results.
 
 # Questions we were able to answer
-What crime occurs the most?
-Where do most crimes occur? (outdoors, inside residences, etc.)
-Are crimes more likely to be committed at certain times?  (00:00 to 11:59, 12:00 to 17:59, 18:00 to 23:59)
-What places have more crime than others? (image of view below)
-How many victims were there per crime per month?
+What crime occurs the most?  
+Where do most crimes occur? (outdoors, inside residences, etc.)  
+Are crimes more likely to be committed at certain times?  (00:00 to 11:59, 12:00 to 17:59, 18:00 to 23:59)  
+What places have more crime than others?    
+How many victims were there per crime per month?  
 
 # The following list describes what each query we wrote for our database displays: 
 Query 1: Creates a view that shows the most committed crime and amount of times it was committed
