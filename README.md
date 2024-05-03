@@ -1,7 +1,7 @@
-# INST 327, Section: 0103
-# Project Diary and Report
-# 05/15/2023
-# Team 7 - Jay Caro, Vivian Chao, Rayn Carrillo, Nikolas F Orozco, Madison Diamond
+# INST 327: Database Modeling and Design
+Project Diary and Report
+05/15/2023
+Team 7 - Jay Caro, Vivian Chao, Rayn Carrillo, Nikolas F Orozco, Madison Diamond
 
 
 # Introduction
